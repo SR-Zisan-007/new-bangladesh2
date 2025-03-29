@@ -34,6 +34,10 @@
     border: none;
 }
 
+.hover-effect {
+    cursor: pointer;
+}
+
   /* Nav Styles */
 
 .nav-bar {
@@ -119,6 +123,10 @@ nav a {
 
 .pillar-subtitle {
     opacity: 0.7;
+}
+
+.pillar-items:hover {
+    background-color: rgba(198, 228, 214, 1);
 }
 
 /* Vision Styles */
@@ -262,6 +270,10 @@ blockquote {
     margin-bottom: 32px;
 }
 
+.news-card:hover {
+    background-color: rgba(198, 228, 214, 1);
+}
+
 a {
     text-decoration: none;
 }
@@ -320,6 +332,10 @@ input[type="text"] {
 
 .donate-button {
     text-align: center;
+}
+
+.donate-card:hover {
+    background-color: rgba(198, 228, 214, 1);
 }
 
 /* footer */
