@@ -269,10 +269,8 @@ a {
 /* Donate Styles */
 
 .donate {
-    display: block;
+    text-align: center;
     margin: 0 160px;
-    align-items: center;
-    justify-content: center;
 }
 
 .donate-title {
