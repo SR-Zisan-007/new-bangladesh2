@@ -338,6 +338,49 @@ input[type="text"] {
     background-color: rgba(198, 228, 214, 1);
 }
 
+/* Newsletter Style */
+
+.newsletter {
+    text-align: center;
+    margin: 80px 160px;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+    padding: 80px 265px;
+}
+
+.newsletter-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.newsletter-details {
+    margin-bottom: 24px;
+}
+
+.newsletter-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+input[type="email"] {
+    text-align: start;
+    opacity: 0.3;
+    padding: 18px 40px;
+    width: 600px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+
+.news-btn {
+    border-top-left-radius: 0 ;
+    border-bottom-left-radius: 0;
+}
+
 /* footer */
 
 footer {
