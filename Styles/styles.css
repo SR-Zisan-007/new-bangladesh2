@@ -1,0 +1,208 @@
+.fira-sans-regular {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #F1F1F3;
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+  /* Shared Styles */
+
+.btn-secondary {
+    padding: 15px 30px;
+    border-radius: 8px;
+    border-color: #006A50;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-primary {
+    padding: 17px 34px;
+    color: white;
+    background-color: #006A50;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+}
+
+  /* Nav Styles */
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 160px;
+    margin-bottom: 20px;
+}
+
+.nav-title {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #006A50;
+}
+
+/* Banner Styles */
+
+.banner {
+    display: flex;
+    background-color: #C6E4D6;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 60px;
+    margin: 0 160px 80px 160px;
+    gap: 150px;
+    border-radius: 24px;
+    margin-bottom: 80px;
+}
+
+.banner-subtitle {
+    font-weight: 400;
+    opacity: .5;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 56px;
+    margin-bottom: 24px;
+}
+
+/* Pillars Styles */
+
+.pillars {
+    margin: 0 160px 80px 160px;
+}
+
+.pillar-heading {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+.pillar-details {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.pillar-items {
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 24px;
+}
+
+.pillar-img {
+    margin-bottom: 24px;
+}
+
+.pillar-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.pillar-subtitle {
+    opacity: 0.7;
+}
+
+/* Vision Styles */
+
+.vision {
+    margin: 0 160px 32px 160px;
+}
+
+.vision-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.vision-heading {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.vision-subheading {
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.vision-description {
+    margin-bottom: 32px;
+}
+
+.vision-card {
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.card1 {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.card2 {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.card3 {
+    background-color: rgba(247, 235, 207, 1);
+}
+
+.vision-img {
+    margin-bottom: 24px;
+}
+
+.vision-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.vision-info {
+    opacity: 0.7;
+}
+
+.vision-quote {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: auto;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 48px 24px;
+}
+
+blockquote {
+    font-size: 16px;
+    color: #333;
+    position: relative;
+    margin: 0;
+  }
+
+.quote-mark {
+    font-size: 300px;
+    color: #0E0E0E;
+    position: absolute;
+    top: -100px;
+    left: -10px;
+    opacity: .3;
+}
+
+.vision-main-quote {
+    margin-bottom: 12px;
+}
+
+.vision-quoter-details {
+    opacity: 0.6;
+}
