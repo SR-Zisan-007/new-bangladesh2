@@ -321,3 +321,29 @@ input[type="text"] {
 .donate-button {
     text-align: center;
 }
+
+/* footer */
+
+footer {
+    background-color: #FFFFFF;
+}
+
+.footer-title {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 50px 690px 25px 690px;
+    text-align: center;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 50px;
+}
+
+footer hr {
+    margin: 32px 240px;
+}
