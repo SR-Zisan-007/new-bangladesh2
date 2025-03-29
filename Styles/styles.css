@@ -331,7 +331,7 @@ footer {
 .footer-title {
     font-size: 32px;
     font-weight: bold;
-    padding: 50px 690px 25px 690px;
+    padding: 50px 0 25px 0px;
     text-align: center;
 }
 
